@@ -1,0 +1,29 @@
+    /* in order to select an HTML tag to change color to, you need to specify the name of the element (in this case it's the body) you want to change about it (in this case it's the background color that I want to be changed) */
+        /*external css*/
+        body {
+            background-color: #F6E6CB;
+        }
+
+        h1 {
+            color: #66BFBF;
+        }
+        
+        h3 {
+            color: #66BFBF;
+        }
+
+        h4 {
+            color:#66BFBF;
+        }
+
+        hr {
+          border-color: grey;
+          border-style: none;
+          border-top-style: dotted;
+          border-width: 8px;
+          width: 10%;
+        }
+
+        img {
+            height: 120px;
+        }
