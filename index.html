@@ -1,70 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <title>Samantha's Personal Site</title>
-        <!-- states this link has a relationship with the stylesheet - browser will read this. The href reads the file based on the root - when the page is static it cannot read the root yet. I have a folder called "css" and inside that folder there is a file named "style.css"  Add this to your other pages and they will all look the same.-->
-        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <title>Samantha Mongillo</title>
+        <!-- link tag defines relationship between the current document and an external resource. -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- preconnect improves google fonts performance -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- if users don't have the fonts I picked installed, the browser will take them to the link below and pick the fonts for them -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet">
     </head>
     <body>
-            <!-- cellspacing is an attribute that is applied both horizontally and verticcally to the space between two cells in a percentage value or pixels.  -->
-        <table cellspacing="20">
-            <tr>
-                <td><img src="https://media-exp1.licdn.com/dms/image/C4E03AQEaZTvQZhaf5w/profile-displayphoto-shrink_800_800/0/1517340421030?e=2147483647&v=beta&t=0rgWyYdKgYR8LZi8I3Ob9aSTBcHvImMo5M9TS7GE1RA"
-                        alt="samantha profile picture" class="center"></td>
-                <td>
-                    <center><h1>Hi. I'm Samantha.</h1></center>
-                    <center><h4>A Web Developer</h4></center>
-                </td>
-            </tr>
-        </table>
-            <!-- <hr> = horizontal rule, putting a line across the page -->
-        <hr>  
-        <h3>About Me</h3>
-            <p>I'm a web developer based in Florida with a background in IT and manufacturing. I have my Bachelor's in Computer Science and aspire to become a Software Engineer.</p>
-            <!-- ul = unordered list. It displays bullet points. ol = ordered list and displays 1, 2, 3, etc.. -->
-        <h3>Education</h3>
-            <p>Jenks High School - Class of 2007</p>
-            <p>Colorado Technical University - BSCS - Class of 2022</p>     
-        <hr>
-        <h3>Technical Skills</h3>
-        <table>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Web Development</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Production Management</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>IT Desktop Support</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                        </td>
-                        <td>
-                    <table>
-                        <tr>
-                            <td>Web Development</td>
-                            <td>🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Production Management</td>
-                            <td>🌟🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>IT Desktop Support</td>
-                            <td>🌟🌟</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <a href="contact information.html">Contact Information</a>
-            </body>
+        <h1>I'm Samantha.</h1>
+        <p>a programmer.</p>
+        <img src="images/programmer.png" alt="programmer-img">
+    <div class="middle-container">
+        <div class="profile">
+    <hr>
+        <h2>About Me</h2>
+        <img src="images/pointing-down.png" alt="pointing-down-img"
+                width="80">
+        <p>I am a Web Developer based in Florida. I have my Bachelor's degree in Computer Science and I am working towards a career in Software Development.</p>
+        <p>I love to spend time with my family and explore Florida! </p>
+        <p>Some of my hobbies include collecting books, gardening, gaming, and of course, coding!</p>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>Skills</h2>
+        <img src="images/skills.png" alt="skills-img"
+                width="120">
+        <p>I began coding at the age of 14. I learned HTML by playing design games online that were popular in the early 2000's. 
+        </p>
+        <p>I am proficient in HTML, JavaScript, and CSS.</p>
+        <P>I am familiar with Python and C++.</P>
+    </div>
+    <hr>
+    <div class="blog">
+        <h2>Blog</h2>
+        <img src="images/blog.png" alt="blog-img" width="80">
+        <br>
+        <a href="blog.html">See what i've been up to!</a>
+    </div>
+    <hr>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <a class="btn" href="mailto:name@email.com">E-MAIL</a>
+    </div>
+     <div class="bottom-container">
+        <a class="footer-link" href="https://www.github.com/Samantha-Mongillo/">GitHub</a>
+        <a class="footer-link" href="https://www.github.com/Samantha-Mongillo/">Website</a>
+        <p>© Samantha Mongillo.</p>
+        <a href="https://www.flaticon.com/free-icons/blog" title="blog icons">**All Icons used on this site are from Flaticon**</a>
+    </div>
+    </body>
 </html>
+
+    <!-- <div class="middle-container"></div> -->
+    <!-- <div class="profile"> -->
+        <!-- <img class="" src="" alt=""> -->
+        <!-- </div> -->
+        <!-- <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
+
+        <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"> -->
+
